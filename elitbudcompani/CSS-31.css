@@ -1,0 +1,13 @@
+.container{
+    background-image: url(666.png);
+    background-size: cover;
+    background-position: 50% 50%;
+    padding: 100%;
+background-attachment: fixed;
+}
+img{
+    width: 100px;
+}
+.container{
+    padding: 70px 0;
+}
