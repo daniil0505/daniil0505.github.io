@@ -1,0 +1,113 @@
+header{
+    background-image: url(33.jpg);
+    text-align: center;
+    padding: 50px 0;
+}
+header img{
+    width: 100px;
+}
+img{
+    width: 100%;
+}
+.nav-item .nav-link{
+    color: white !important;
+}
+.main-text{
+    text-align: center;
+    margin: 50px 0;
+    color: bisque;
+    text-shadow: 0px 0px 5px pink;
+}
+.container{
+    padding: 70px 0;
+}
+.song{
+box-shadow: 0px 0px 10px rgb(187, 6, 210);
+margin: 10px;
+padding: 20px;
+text-shadow: 7px 5px 5px blueviolet;
+background-color: rgba(203, 147, 234, 0.53);
+
+}
+.save-link{
+    display: block;
+    background-color: rgb(6, 2, 10);
+    padding: 5px;
+    color: white;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    margin-left: 7px;
+    text-shadow: none;
+}
+footer{
+    background-color: black;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+footer .text{
+    color: gray;
+    text-align: right;
+}
+.socio-item{
+    font-size: 2.3rem;
+    color: lightgrey;
+    text-decoration: none;
+    transition: 0.5s;
+    margin-right: 10px;
+}
+.socio-item:hover{
+    color: rgb(101, 0, 101);
+    text-shadow: 3px 3px 8px rgba(172, 72, 172, 0.648);
+}
+.first-row{
+    margin-bottom: 40px;
+    padding-bottom: 30px;
+}
+.top{
+    box-shadow: 0px 0px 10px rgb(10, 244, 6);
+    margin: 10px;
+    padding: 20px;
+    text-shadow: 7px 5px 5px rgb(10, 244, 6);
+    background-color: rgba(160, 234, 147, 0.53)
+}
+.base{
+    box-shadow: 0px 0px 10px rgb(244, 6, 6);
+    margin: 10px;
+    padding: 20px;
+    text-shadow: 7px 5px 5px rgb(244, 6, 6);
+    background-color: rgba(234, 147, 147, 0.53)
+}
+.thu-row{
+    margin-bottom: 40px;
+    padding-bottom: 30px;
+}
+.base-row{
+    margin-bottom: 40px;
+    padding-bottom: 30px;
+}
+.mefon{
+     background-image: url(66.png);
+     background-size: cover;
+     background-position: 50% 50%;
+}
+.classik{
+    align-items: center;
+    color: lightgrey;
+    text-align: center;
+}
+.toxsic{
+    align-items: center;
+    color: lightgrey;
+    text-align: center;
+}
+.game{
+    align-items: center;
+    color: lightgrey;
+    text-align: center
+}
+h1, h2, h3{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+p{
+    font-family: 'Gentium Plus', serif;
+}
