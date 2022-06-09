@@ -4,13 +4,14 @@ header{
     padding: 50px 0;
 }
 header img{
-    width: 100px;
+    width: 200px;
 }
+
 img{
     width: 100%;
 }
 .nav-item .nav-link{
-    color: white !important;
+    color: rgb(223, 142, 255) !important;
 }
 .main-text{
     text-align: center;
@@ -22,10 +23,10 @@ img{
     padding: 70px 0;
 }
 .song{
-box-shadow: 0px 0px 10px rgb(187, 6, 210);
+box-shadow: 0px 0px 10px rgb(219, 37, 243);
 margin: 10px;
 padding: 20px;
-text-shadow: 7px 5px 5px blueviolet;
+text-shadow: 5px 5px 5px rgb(128, 0, 249);
 background-color: rgba(203, 147, 234, 0.53);
 
 }
@@ -56,8 +57,8 @@ footer .text{
     margin-right: 10px;
 }
 .socio-item:hover{
-    color: rgb(101, 0, 101);
-    text-shadow: 3px 3px 8px rgba(172, 72, 172, 0.648);
+    color: rgb(0, 255, 208);
+    text-shadow: 3px 3px 8px rgba(0, 255, 166, 0.648);
 }
 .first-row{
     margin-bottom: 40px;
@@ -67,14 +68,14 @@ footer .text{
     box-shadow: 0px 0px 10px rgb(10, 244, 6);
     margin: 10px;
     padding: 20px;
-    text-shadow: 7px 5px 5px rgb(10, 244, 6);
+    text-shadow: 5px 5px 5px rgb(10, 244, 6);
     background-color: rgba(160, 234, 147, 0.53)
 }
 .base{
     box-shadow: 0px 0px 10px rgb(244, 6, 6);
     margin: 10px;
     padding: 20px;
-    text-shadow: 7px 5px 5px rgb(244, 6, 6);
+    text-shadow: 5px 5px 5px rgb(244, 6, 6);
     background-color: rgba(234, 147, 147, 0.53)
 }
 .thu-row{
@@ -92,22 +93,185 @@ footer .text{
 }
 .classik{
     align-items: center;
-    color: lightgrey;
-    text-align: center;
+    color: rgb(143, 8, 233);
+    text-align: center; 
+    text-shadow: 0px 0px 6px rgb(38, 0, 74);
 }
 .toxsic{
     align-items: center;
-    color: lightgrey;
+    color: rgb(10, 244, 6);
     text-align: center;
+    text-shadow: 0px 0px 6px rgb(1, 69, 0);
 }
 .game{
     align-items: center;
-    color: lightgrey;
-    text-align: center
+    color: rgb(244, 6, 6);
+    text-align: center;
+    text-shadow: 0px 0px 6px rgb(93, 0, 0);
 }
 h1, h2, h3{
     font-family: 'Roboto Condensed', sans-serif;
 }
 p{
     font-family: 'Gentium Plus', serif;
+}
+.top-div{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 20px;
+    color: rgb(109, 0, 142);
+    font-size: 2rem;
+    animation: arrow-move 0.8s infinite alternate;
+    background-color: #2AA5A0;
+  background-image: linear-gradient(90deg, #000000, #b700e0, #f2b7ff );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+@keyframes arrow-move{
+    0%{
+        bottom: 20px;
+    }
+    100%{
+        bottom: 40px;
+    }
+}
+.top-div:hover{
+    animation-play-state: paused;
+}
+.anime{
+    align-items: center;
+    color: rgb(244, 145, 6);
+    text-align: center;
+    text-shadow: 0px 0px 6px rgb(93, 50, 0);
+}
+.hor{
+    box-shadow: 0px 0px 10px rgb(244, 161, 6);
+    margin: 10px;
+    padding: 20px;
+    text-shadow: 5px 5px 5px rgb(111, 78, 0);
+    background-color: rgba(184, 120, 0, 0.53);
+}
+.hor-row{
+    margin-bottom: 40px;
+    padding-bottom: 30px;
+}
+.rok-row{
+    margin-bottom: 40px;
+    padding-bottom: 30px;
+}
+.uwu{
+    box-shadow: 0px 0px 10px rgb(93, 92, 92);
+    margin: 10px;
+    padding: 20px;
+    text-shadow: 5px 5px 5px rgb(51, 51, 50);
+    background-color: rgba(89, 88, 86, 0.53);
+}
+.rok{
+    align-items: center;
+    color: rgb(100, 99, 97);
+    text-align: center;
+    text-shadow: 0px 0px 6px rgb(53, 52, 52);
+}
+.son-row{
+    margin-bottom: 40px;
+    padding-bottom: 30px;
+}
+.son{
+    align-items: center;
+    color: rgb(60, 77, 114);
+    text-align: center;
+    text-shadow: 0px 0px 6px rgb(71, 76, 232); 
+}
+.vov{
+    box-shadow: 0px 0px 10px rgb(121, 213, 236);
+    margin: 10px;
+    padding: 20px;
+    text-shadow: 5px 5px 5px rgb(38, 46, 106);
+    background-color: rgba(27, 26, 81, 0.53);
+}
+.hop-row{
+    margin-bottom: 40px;
+    padding-bottom: 30px;
+}
+.hop{
+    align-items: center;
+    color: rgb(223, 252, 0);
+    text-align: center;
+    text-shadow: 0px 0px 6px rgb(151, 167, 1); 
+}
+.ana{
+    box-shadow: 0px 0px 10px rgb(212, 255, 0);
+    margin: 10px;
+    padding: 20px;
+    text-shadow: 5px 5px 5px rgb(166, 171, 0);
+    background-color: rgba(128, 148, 0, 0.53);
+}
+.pop-row{
+    margin-bottom: 40px;
+    padding-bottom: 30px;
+}
+.pop{
+    box-shadow: 0px 0px 10px rgb(255, 0, 242);
+    margin: 10px;
+    padding: 20px;
+    text-shadow: 5px 5px 5px rgb(171, 0, 154);
+    background-color: rgba(148, 0, 106, 0.53);
+}
+.poh{
+    align-items: center;
+    color: rgb(252, 0, 227);
+    text-align: center;
+    text-shadow: 0px 0px 6px rgb(167, 1, 98); 
+}
+.hah{
+    align-items: center;
+    color: rgb(0, 176, 252);
+    text-align: center;
+    text-shadow: 0px 0px 6px rgb(12, 1, 167); 
+}
+.her-row{
+    margin-bottom: 40px;
+    padding-bottom: 30px;
+}
+.hui{
+    box-shadow: 0px 0px 10px rgb(0, 179, 255);
+    margin: 10px;
+    padding: 20px;
+    text-shadow: 5px 5px 5px rgb(0, 66, 171);
+    background-color: rgba(27, 0, 148, 0.53);
+}
+.ukr-row{
+    margin-bottom: 40px;
+    padding-bottom: 30px;
+}
+.ukr{
+    align-items: center;
+    color: rgb(218, 252, 0);
+    text-align: center;
+    text-shadow: 0px 0px 6px rgb(1, 92, 167); 
+}
+.ua{
+    box-shadow: 0px 0px 10px rgb(0, 102, 255);
+    margin: 10px;
+    padding: 20px;
+    text-shadow: 5px 5px 5px rgb(148, 171, 0);
+    background-color: rgba(138, 148, 0, 0.53);
+}
+.rgb{
+    align-items: center;
+    color: rgb(0, 80, 252);
+    text-align: center;
+    text-shadow: 0px 0px 6px rgb(0, 217, 255); 
+}
+.rgb-row{
+    margin-bottom: 40px;
+    padding-bottom: 30px;
+}
+.rb{
+    box-shadow: 0px 0px 10px rgb(8, 0, 255);
+    margin: 10px;
+    padding: 20px;
+    text-shadow: 5px 5px 5px rgb(0, 31, 171);
+    background-color: rgba(0, 255, 149, 0.53);
 }
