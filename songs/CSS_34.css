@@ -1,0 +1,277 @@
+header{
+    background-image: url(23.jpg);
+    text-align: center;
+    padding: 50px 0;
+}
+header img{
+    width: 200px;
+}
+
+img{
+    width: 100%;
+}
+.nav-item .nav-link{
+    color: rgb(223, 142, 255) !important;
+}
+.main-text{
+    text-align: center;
+    margin: 50px 0;
+    color: bisque;
+    text-shadow: 0px 0px 5px pink;
+}
+.container{
+    padding: 70px 0;
+}
+.song{
+box-shadow: 0px 0px 10px rgb(219, 37, 243);
+margin: 10px;
+padding: 20px;
+text-shadow: 5px 5px 5px rgb(128, 0, 249);
+background-color: rgba(203, 147, 234, 0.53);
+
+}
+.save-link{
+    display: block;
+    background-color: rgb(6, 2, 10);
+    padding: 5px;
+    color: white;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    margin-left: 7px;
+    text-shadow: none;
+}
+footer{
+    background-color: black;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+footer .text{
+    color: gray;
+    text-align: right;
+}
+.socio-item{
+    font-size: 2.3rem;
+    color: lightgrey;
+    text-decoration: none;
+    transition: 0.5s;
+    margin-right: 10px;
+}
+.socio-item:hover{
+    color: rgb(0, 255, 208);
+    text-shadow: 3px 3px 8px rgba(0, 255, 166, 0.648);
+}
+.first-row{
+    margin-bottom: 40px;
+    padding-bottom: 30px;
+}
+.top{
+    box-shadow: 0px 0px 10px rgb(10, 244, 6);
+    margin: 10px;
+    padding: 20px;
+    text-shadow: 5px 5px 5px rgb(10, 244, 6);
+    background-color: rgba(160, 234, 147, 0.53)
+}
+.base{
+    box-shadow: 0px 0px 10px rgb(244, 6, 6);
+    margin: 10px;
+    padding: 20px;
+    text-shadow: 5px 5px 5px rgb(244, 6, 6);
+    background-color: rgba(234, 147, 147, 0.53)
+}
+.thu-row{
+    margin-bottom: 40px;
+    padding-bottom: 30px;
+}
+.base-row{
+    margin-bottom: 40px;
+    padding-bottom: 30px;
+}
+.mefon{
+     background-image: url(66.png);
+     background-size: cover;
+     background-position: 50% 50%;
+}
+.classik{
+    align-items: center;
+    color: rgb(143, 8, 233);
+    text-align: center; 
+    text-shadow: 0px 0px 6px rgb(38, 0, 74);
+}
+.toxsic{
+    align-items: center;
+    color: rgb(10, 244, 6);
+    text-align: center;
+    text-shadow: 0px 0px 6px rgb(1, 69, 0);
+}
+.game{
+    align-items: center;
+    color: rgb(244, 6, 6);
+    text-align: center;
+    text-shadow: 0px 0px 6px rgb(93, 0, 0);
+}
+h1, h2, h3, h4, h5{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+p{
+    font-family: 'Gentium Plus', serif;
+}
+.top-div{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 20px;
+    color: rgb(109, 0, 142);
+    font-size: 2rem;
+    animation: arrow-move 0.8s infinite alternate;
+    background-color: #2AA5A0;
+  background-image: linear-gradient(90deg, #000000, #b700e0, #f2b7ff );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+@keyframes arrow-move{
+    0%{
+        bottom: 20px;
+    }
+    100%{
+        bottom: 40px;
+    }
+}
+.top-div:hover{
+    animation-play-state: paused;
+}
+.anime{
+    align-items: center;
+    color: rgb(244, 145, 6);
+    text-align: center;
+    text-shadow: 0px 0px 6px rgb(93, 50, 0);
+}
+.hor{
+    box-shadow: 0px 0px 10px rgb(244, 161, 6);
+    margin: 10px;
+    padding: 20px;
+    text-shadow: 5px 5px 5px rgb(111, 78, 0);
+    background-color: rgba(184, 120, 0, 0.379);
+}
+.hor-row{
+    margin-bottom: 40px;
+    padding-bottom: 30px;
+}
+.rok-row{
+    margin-bottom: 40px;
+    padding-bottom: 30px;
+}
+.uwu{
+    box-shadow: 0px 0px 10px rgb(119, 82, 42);
+    margin: 10px;
+    padding: 20px;
+    text-shadow: 5px 5px 5px rgb(51, 51, 50);
+    background-color: rgba(144, 123, 81, 0.53);
+}
+.rok{
+    align-items: center;
+    color: rgb(100, 99, 97);
+    text-align: center;
+    text-shadow: 0px 0px 6px rgb(53, 52, 52);
+}
+.son-row{
+    margin-bottom: 40px;
+    padding-bottom: 30px;
+}
+.son{
+    align-items: center;
+    color: rgb(60, 77, 114);
+    text-align: center;
+    text-shadow: 0px 0px 6px rgb(71, 76, 232); 
+}
+.vov{
+    box-shadow: 0px 0px 10px rgb(121, 213, 236);
+    margin: 10px;
+    padding: 20px;
+    text-shadow: 5px 5px 5px rgb(38, 46, 106);
+    background-color: rgba(17, 15, 140, 0.53);
+}
+.hop-row{
+    margin-bottom: 40px;
+    padding-bottom: 30px;
+}
+.hop{
+    align-items: center;
+    color: rgb(223, 252, 0);
+    text-align: center;
+    text-shadow: 0px 0px 6px rgb(151, 167, 1); 
+}
+.ana{
+    box-shadow: 0px 0px 10px rgb(212, 255, 0);
+    margin: 10px;
+    padding: 20px;
+    text-shadow: 5px 5px 5px rgb(166, 171, 0);
+    background-color: rgba(128, 148, 0, 0.53);
+}
+.pop-row{
+    margin-bottom: 40px;
+    padding-bottom: 30px;
+}
+.pop{
+    box-shadow: 0px 0px 10px rgb(255, 0, 242);
+    margin: 10px;
+    padding: 20px;
+    text-shadow: 5px 5px 5px rgb(171, 0, 154);
+    background-color: rgba(148, 0, 106, 0.53);
+}
+.poh{
+    align-items: center;
+    color: rgb(252, 0, 227);
+    text-align: center;
+    text-shadow: 0px 0px 6px rgb(167, 1, 98); 
+}
+.hah{
+    align-items: center;
+    color: rgb(0, 176, 252);
+    text-align: center;
+    text-shadow: 0px 0px 6px rgb(12, 1, 167); 
+}
+.her-row{
+    margin-bottom: 40px;
+    padding-bottom: 30px;
+}
+.hui{
+    box-shadow: 0px 0px 10px rgb(0, 179, 255);
+    margin: 10px;
+    padding: 20px;
+    text-shadow: 5px 5px 5px rgb(0, 66, 171);
+    background-color: rgba(51, 7, 248, 0.53);
+}
+.ukr-row{
+    margin-bottom: 40px;
+    padding-bottom: 30px;
+}
+.ukr{
+    align-items: center;
+    color: rgb(218, 252, 0);
+    text-align: center;
+    text-shadow: 0px 0px 6px rgb(1, 92, 167); 
+}
+.ua{
+    box-shadow: 0px 0px 10px rgb(0, 102, 255);
+    margin: 10px;
+    padding: 20px;
+    text-shadow: 5px 5px 5px rgb(148, 171, 0);
+    background-color: rgba(138, 148, 0, 0.53);
+}
+.rgb{
+    align-items: center;
+    color: rgb(0, 80, 252);
+    text-align: center;
+    text-shadow: 0px 0px 6px rgb(0, 217, 255); 
+}
+.rgb-row{
+    margin-bottom: 40px;
+    padding-bottom: 30px;
+}
+.rb{
+    box-shadow: 0px 0px 10px rgb(8, 0, 255);
+    margin: 10px;
+    padding: 20px;
+    text-shadow: 5px 5px 5px rgb(0, 31, 171);
+    background-color: rgba(0, 255, 149, 0.53);
+}
